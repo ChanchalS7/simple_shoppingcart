@@ -1,0 +1,137 @@
+.product_Box{
+    width: 80%;
+    margin:auto 50px;
+    display: flex;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.pro_leftBox{
+width: 50%;
+margin:auto 50px;
+  
+}
+.pro_leftBox img{
+    width: 300px;
+    height: 400px;
+   margin-left: 30px;
+   margin-bottom: 30px;
+}
+.pro_rightBox{
+    width: 50%;
+    margin: auto 40px;
+}
+.pro_rightBox button{
+    background-color:rgb(37, 37, 52)  ;
+    width: 70%;
+    color: white;
+    margin-bottom: 20px;
+    padding:15px ;
+    border: none;
+    border-radius: 5px;
+
+}
+
+/* ////////////// */
+.CartBox{
+    width: 70%;
+    height: 200px;
+display: flex;
+
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+justify-content: space-between;
+    margin:30px auto;
+
+}
+.MainContainer
+{
+    display: flex;}
+.CartImage{
+width: 20%;
+margin-left: 20px;
+/* border: 1px solid red; */
+}
+.CartBox img{
+    width: 80%;
+    height: 80%;
+    margin: 20px auto;
+}
+.decBox{
+    display: flex;
+    /* border: 1px solid red; */
+    margin: auto;
+    justify-content: space-between;
+    width: 40%;
+}
+.lastBox{
+    width: 30%;
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+.counter{
+    display: flex;
+    justify-content: space-between;
+}
+.counter div{
+    border: 1px solid black;
+    padding: 12px;
+    height: 20px;
+}
+.counter button{
+    border: 1px solid black;
+    padding: 10px;
+    /* height: 20px; */
+}
+.removeBtn{
+    padding: 15px 40px;
+    background-color:rgb(37, 37, 52) ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    /* paddin; */
+}
+
+.TotalBox{
+    width: 300px;
+    /* height: 300px; */
+    margin:  50px auto;
+    text-align: center;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.TotalBox h1{
+padding-top: 30px;
+}
+
+.paymentBtn{
+    padding: 15px 40px;
+    background-color:rgb(37, 37, 52) ;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+/* ////////////////////
+ */
+ .orderPage{
+width: 90%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+ }
+.orderPage1{
+    width:65%;
+}
+.orderPage1 .card{
+width: 200px;
+height: 200px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+.orderImg{
+  width: 200px;
+    height: 150px;
+}
+.orderPage2{
+width: 30%;
+border: 1px solid black;
+}

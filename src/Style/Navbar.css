@@ -1,0 +1,24 @@
+.link{
+    color: beige;
+    text-decoration: none;
+    margin: 10px;
+    border: 1px solid transparent;
+   padding: 0px 10px 0px 10px;
+  
+  }
+  .link:hover{
+    text-decoration: none;
+    border-radius: 5px;
+   background-color: beige ;
+   color: rgb(37, 37, 52);
+    
+   }
+   nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50px;
+   text-decoration: none;
+    background-color:rgb(37, 37, 52) ;
+    margin-bottom: 30px;
+  }

@@ -1,0 +1,59 @@
+.HomeContainer{
+    /* border: 2px solid black; */
+    width: 100%;
+display: flex;
+justify-content: space-evenly;
+}
+.leftBox{
+width: 25%;
+margin-left: 30px;
+
+}
+.leftBox div{
+  margin-top: 10px;
+}
+.resetButton{
+  padding: 15px 40px;
+  background-color:rgb(37, 37, 52) ;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.rightBox{
+    width: 75%;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: space-around;
+    gap: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.ProductCard {
+  border-radius: 8px;
+    text-align: center;
+    margin: 20px;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.ProductCard img{
+  width: 200px;
+  height: 250px;
+ 
+}
+.ProductCard h3{
+   margin:  10px 20px;
+ }
+ .ProductCard div{
+    width: 90%;
+    margin:20px auto ;
+    display: flex;
+    justify-content: space-between;
+  }
+.radioBox{
+    display: flex;
+    flex-direction: column;
+    /* text-align: start; */
+
+}
